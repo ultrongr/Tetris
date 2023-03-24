@@ -360,9 +360,9 @@ void update_board(char input)
         break;
     case 4:
         for(i=0; i<FRAME/2; i++){
-        sleep(1/2);
+        Sleep(1/2);
         system("color 02");
-        sleep(1/2);
+        Sleep(1/2);
         system("color 07");
         }
         print_board();
